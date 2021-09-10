@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Open+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+img {
+  width: 210px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-1 {
+  margin-right: 0.5em;
+}
+
+.month {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-right,
+.flex-left {
+  padding: 0.5em 3em;
+}
+
+.title {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(46, 97, 115);
+  font-size: 3em;
+  padding: 2rem 2rem 2rem 3rem;
+}
+
+.box-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(46, 97, 115);
+  font-size: 2.1em;
+}
+
+.box-description {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(79, 122, 137);
+  padding: 0;
+  padding: 0.3em 0;
+  margin: 0;
+  padding-left: 0.3rem;
+  font-size: 1.4em;
+}
+
+.october {
+  background: rgb(223, 235, 235);
+}
+
+.october .flex-left {
+  padding-bottom: 8em;
+  padding-top: 2em;
+}
+
+.november {
+  background: rgb(252, 245, 242);
+  margin-top: 0.5em;
+}
+
+.november img {
+  width: 180px;
+  padding-top: 1em;
+}
+
+.november .flex-left {
+  padding-bottom: 5em;
+}
+
+.january {
+  background: rgb(223, 235, 235);
+  margin-top: 0.5em;
+}
+
+.january img {
+  width: 180px;
+}
+
+.january .flex-left {
+  padding-bottom: 5em;
+}
+
+.march {
+  background: rgb(231, 241, 245);
+  margin-top: 0.5em;
+}
+
+.march .flex-left {
+  padding-bottom: 5em;
+}
+
+.march img {
+  width: 150px;
+}
+
+.may {
+  background: rgb(227, 242, 242);
+  margin-top: 0.5em;
+}
+
+.may .flex-left {
+  padding-bottom: 5em;
+}
+
+.may img {
+  width: 150px;
+}
+
+.september {
+  background: rgb(227, 242, 242);
+  margin-top: 0.5em;
+}
+
+.september img {
+  width: 180px;
+}
+
+.september .flex-left {
+  padding-bottom: 3.5em;
+}
+
+.december {
+  background: rgb(231, 241, 245);
+  margin-top: 0.5em;
+}
+
+.december .flex-left {
+  padding-bottom: 7.5em;
+}
+
+.december img {
+  width: 160px;
+}
+
+.february {
+  background: rgb(252, 245, 242);
+  padding-bottom: 3.5em;
+  margin-top: 0.5em;
+}
+
+.april {
+  background: rgb(231, 241, 245);
+  margin-top: 0.5em;
+  padding-bottom: 4em;
+}
+
+.april img {
+  padding-top: 1em;
+}
+
+.june {
+  white-space: nowrap;
+  background: rgb(252, 245, 242);
+  padding-bottom: 6em;
+  margin-top: 0.5em;
+}
+
+.june img {
+  width: 180px;
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  main {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 2.5em;
+  }
+
+  .box-description {
+    font-size: 1em;
+    white-space: nowrap;
+  }
+
+  .box-title {
+    font-size: 2em;
+  }
+
+  .flex-1 {
+    margin: 0;
+  }
+
+  .flex-right,
+  .flex-left {
+    padding: 0.5em 2em;
+  }
+
+  .month img {
+    width: 160px;
+  }
+}
