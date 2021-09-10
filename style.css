@@ -59,17 +59,16 @@ body {
 }
 
 .october {
-  background: rgb(223, 235, 235);
-}
-
-.october .flex-left {
+  background: rgb(252, 245, 242);
   padding-bottom: 8em;
   padding-top: 2em;
+  margin-top: 0.5em;
 }
 
 .november {
-  background: rgb(252, 245, 242);
+  background: rgb(231, 241, 245);
   margin-top: 0.5em;
+  padding-bottom: 5em;
 }
 
 .november img {
@@ -77,29 +76,20 @@ body {
   padding-top: 1em;
 }
 
-.november .flex-left {
-  padding-bottom: 5em;
-}
-
 .january {
   background: rgb(223, 235, 235);
   margin-top: 0.5em;
+  padding-bottom: 5em;
 }
 
 .january img {
   width: 180px;
 }
 
-.january .flex-left {
-  padding-bottom: 5em;
-}
-
 .march {
-  background: rgb(231, 241, 245);
-  margin-top: 0.5em;
-}
+  background: rgb(252, 245, 242);
 
-.march .flex-left {
+  margin-top: 0.5em;
   padding-bottom: 5em;
 }
 
@@ -110,9 +100,6 @@ body {
 .may {
   background: rgb(227, 242, 242);
   margin-top: 0.5em;
-}
-
-.may .flex-left {
   padding-bottom: 5em;
 }
 
@@ -123,22 +110,16 @@ body {
 .september {
   background: rgb(227, 242, 242);
   margin-top: 0.5em;
+  padding-bottom: 3.5em;
 }
 
 .september img {
   width: 180px;
 }
 
-.september .flex-left {
-  padding-bottom: 3.5em;
-}
-
 .december {
   background: rgb(231, 241, 245);
   margin-top: 0.5em;
-}
-
-.december .flex-left {
   padding-bottom: 7.5em;
 }
 
@@ -147,9 +128,9 @@ body {
 }
 
 .february {
-  background: rgb(252, 245, 242);
   padding-bottom: 3.5em;
   margin-top: 0.5em;
+  background: rgb(231, 241, 245);
 }
 
 .april {
@@ -176,9 +157,18 @@ body {
 @media (max-width: 600px) {
   body {
     overflow-x: hidden;
+    text-align: center;
+  }
+
+  .month {
+    flex-direction: column;
   }
   main {
     flex-direction: column;
+  }
+
+  img {
+    padding-top: 1em;
   }
 
   .title {
@@ -205,5 +195,9 @@ body {
 
   .month img {
     width: 160px;
+  }
+
+  .flex-left {
+    padding-bottom: 0;
   }
 }
