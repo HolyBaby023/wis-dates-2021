@@ -20,24 +20,28 @@ body {
 
 .flex-1 {
   margin-right: 0.5em;
+  width: 50%;
+}
+
+.flex-2 {
+  width: 50%;
 }
 
 .month {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
 .flex-right,
 .flex-left {
-  padding: 0.5em 3em;
+  padding: 0.5rem 3rem;
 }
 
 .title {
   font-family: "DM Sans", sans-serif;
   color: rgb(46, 97, 115);
-  font-size: 3em;
+  font-size: 3rem;
   padding: 2rem 2rem 2rem 3rem;
 }
 
@@ -45,41 +49,41 @@ body {
   font-family: "DM Sans", sans-serif;
   font-weight: 600;
   color: rgb(46, 97, 115);
-  font-size: 2.1em;
+  font-size: 2.1rem;
 }
 
 .box-description {
   font-family: "Open Sans", sans-serif;
   color: rgb(79, 122, 137);
   padding: 0;
-  padding: 0.3em 0;
+  padding: 0.3rem 0;
   margin: 0;
   padding-left: 0.3rem;
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 .october {
   background: rgb(252, 245, 242);
-  padding-bottom: 8em;
-  padding-top: 2em;
-  margin-top: 0.5em;
+  padding-bottom: 8rem;
+  padding-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 .november {
   background: rgb(231, 241, 245);
-  margin-top: 0.5em;
-  padding-bottom: 5em;
+  margin-top: 0.5rem;
+  padding-bottom: 5rem;
 }
 
 .november img {
   width: 180px;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .january {
   background: rgb(223, 235, 235);
-  margin-top: 0.5em;
-  padding-bottom: 5em;
+  margin-top: 0.5rem;
+  padding-bottom: 5rem;
 }
 
 .january img {
@@ -89,8 +93,8 @@ body {
 .march {
   background: rgb(252, 245, 242);
 
-  margin-top: 0.5em;
-  padding-bottom: 5em;
+  margin-top: 0.5rem;
+  padding-bottom: 5rem;
 }
 
 .march img {
@@ -99,8 +103,8 @@ body {
 
 .may {
   background: rgb(227, 242, 242);
-  margin-top: 0.5em;
-  padding-bottom: 5em;
+  margin-top: 0.5rem;
+  padding-bottom: 5rem;
 }
 
 .may img {
@@ -109,8 +113,8 @@ body {
 
 .september {
   background: rgb(227, 242, 242);
-  margin-top: 0.5em;
-  padding-bottom: 3.5em;
+  margin-top: 0.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .september img {
@@ -119,8 +123,8 @@ body {
 
 .december {
   background: rgb(231, 241, 245);
-  margin-top: 0.5em;
-  padding-bottom: 7.5em;
+  margin-top: 0.5rem;
+  padding-bottom: 7.5rem;
 }
 
 .december img {
@@ -128,26 +132,26 @@ body {
 }
 
 .february {
-  padding-bottom: 3.5em;
-  margin-top: 0.5em;
+  padding-bottom: 3.5rem;
+  margin-top: 0.5rem;
   background: rgb(231, 241, 245);
 }
 
 .april {
   background: rgb(231, 241, 245);
-  margin-top: 0.5em;
-  padding-bottom: 4em;
+  margin-top: 0.5rem;
+  padding-bottom: 4rem;
 }
 
 .april img {
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .june {
   white-space: nowrap;
   background: rgb(252, 245, 242);
-  padding-bottom: 6em;
-  margin-top: 0.5em;
+  padding-bottom: 6rem;
+  margin-top: 0.5rem;
 }
 
 .june img {
@@ -158,6 +162,11 @@ body {
   body {
     overflow-x: hidden;
     text-align: center;
+  }
+
+  .flex-1,
+  .flex-2 {
+    width: 100%;
   }
 
   .month {
